@@ -21,7 +21,8 @@ public class PayrollSystem {
             return Math.min(Math.max(salary, 10000), 100000) * 0.025;
         }
 
-        // 2% of salary, salary capped at 10,000 (max 200)
+        // 2
+        of salary, salary capped at 10,000 (max 200)
         double pagibig() {
             return Math.min(salary, 10000) * 0.02;
         }
